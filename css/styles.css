@@ -1,0 +1,106 @@
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px ;
+    border-bottom:1px ridge ;
+    min-height: 400px;
+}
+nav{
+    background-image: url('../img/HEADER.jpeg') ;
+}
+.footer{
+    color: #ffffff;
+    background-color:#000000;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    background-image: url('../img/Footerbg.jpg') ;
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto ;
+    background-color:#ecc99d;
+    color: #ffffff;
+    background-image: url('../img/pagebg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+
+}
+
+body{
+    background:#481f17;
+    padding: 50px;
+    z-index: 0;
+    background-image: url('../img/bg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-dark{
+    background-color: #512da8;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.blockquote-footer{
+    padding-top: 10px;
+}
+
+.algin-left{
+    align-items: right;
+}
+
+.carousel{
+    background: #512da8;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.close{
+    color: #d1c4e9;
+}
+.modal-header {
+    background: #512DA8;
+    color: #fffaf0; 
+}
+
+.modal-header button {
+    color: #fffaf0; 
+}
+  
+.modal-body {
+    background: #D1C4E9;
+ }
+  
+  .modal-footer {
+  background: #9575CD;
+}
