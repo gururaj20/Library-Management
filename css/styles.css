@@ -10,7 +10,7 @@
     min-height: 400px;
 }
 nav{
-    background-image: url('../img/HEADER.jpeg') ;
+    background-image: url('../img/Header.jpeg') ;
 }
 .footer{
     color: #ffffff;
@@ -21,6 +21,7 @@ nav{
 }
 
 .jumbotron{
+    border-radius: 15px;
     padding: 70px 30px 70px 30px;
     margin: 0px auto ;
     background-color:#ecc99d;
@@ -64,7 +65,7 @@ body{
 }
 
 .algin-left{
-    align-items: right;
+    align-items: left;
 }
 
 .carousel{
@@ -73,11 +74,19 @@ body{
 .carousel-item{
     height: 300px;
 }
+
+.carousel-caption{
+  
+    right: -25%;
+    bottom: 6.25rem;
+}
+
 .carousel-item img{
     position: absolute;
-    top: 0;
+    top: 3%;
     left: 0;
-    min-height: 300px;
+    min-height: 94%;
+    width: 45% !important;
 }
 #carouselButton{
     right: 0px;
@@ -99,8 +108,8 @@ body{
   
 .modal-body {
     background: #D1C4E9;
- }
+}
   
-  .modal-footer {
+.modal-footer {
   background: #9575CD;
 }

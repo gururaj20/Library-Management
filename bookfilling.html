@@ -28,7 +28,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon">.</span>
             </button>
-            <a class="navbar-brand" href="#"><img alt="logo" src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand" href="#"><img alt="logo" src="img/logo.png" height="45" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -50,8 +50,13 @@
                     <h1>St. Vincent High School, Libary</h1>
                     <div class="card card-body bg-transparent">
 						<blockquote class="blockquote">
-							<p class="mb-0">Google will bring you back, you know, a hundred thousand answers. <br>A librarian will bring you back the right one.
-								<footer class="blockquote-footer"> <cite>Neil Gaiman</cite></footer>
+							<p class="mb-0">
+                                All details to be filled here: <br>
+                                <ul>
+                                    <li> Name of the Books</li>
+                                    <li> Auther, etc</li>
+                                </ul>
+								<footer class="blockquote-footer"> <cite>A piece of Advice</cite></footer>
 							</p>
 						</blockquote>
 					</div>                
@@ -64,19 +69,94 @@
     </header>
     <div class="container">
 
-<!--Bread Crumb-->
-<!-- 
+      <!--Bread Crumb-->
         <div class="row"> 
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                 <li class="breadcrumb-item active">Add a Book</li>
             </ol>
             
-        </div> -->     
+          
             <div>
                 <br>
                <h3>Add a Book</h3>
                <hr>
+
+               <form>
+                <div class="form-group row">
+
+                    <label for="BookName" class="col-md-2 col-form-label"><b>Name Of the Book</b></label>
+                    <div class="col-md-10">
+                         <input type="text" class="form-control" id="BookName" name="BookName"
+                         placeholder="Name Of the Book">
+                    </div>
+                </div><br>
+
+                <div class="form-group row">
+
+                    <label for="BookNum" class="col-md-2 col-form-label"> <b>Book Numbers</b></label>
+                    <div class="col-md-4">
+                         <input type="number" class="form-control" id="BookNum" name="BookNum"
+                         placeholder="Book Numbers">
+                    </div>
+
+                    <label for="BookEntry" class="offset-1 col-md-2 col-form-label"><b>Date of Entry</b></label>
+                    <div class="col-md-3">
+                         <input type="date" class="form-control" id="BookEntry" name="BookEntry"
+                         placeholder="Date of Entry">
+                    </div>
+                </div><br>
+
+                <div class="form-group row">
+                    <label for="AuthorName" class="col-12 col-md-2 col-form-label"><b>Author &amp; Publication</b></label>
+                    <div class="col-5 col-md-5">
+                         <input type="text" class="form-control" id="AuthorName" name="AuthorName"
+                         placeholder="Author">
+                    </div>
+                    <div class="col-7 col-md-5">
+                         <input type="text" class="form-control" id="PublicationName" name="PublicationName"
+                         placeholder="Publication">
+                    </div>
+                </div> <br>
+
+                <div class="form-group row">
+                    <label for="BookDetail" class="col-md-2 col-form-label"><b>More About the Book</b></label>
+                    <div class="col-md-10">
+                         <textarea type="text" class="form-control" id="BookDetail" name="BookDetail"
+                         placeholder="More About the Book"></textarea>
+                    </div>
+                </div><br>
+
+                <div class="form-group row">
+                    <label for="BookImage" class="col-md-2 col-form-label"><b>Image Of the Book</b></label>
+                    <div class="col-md-5">
+                     <input type="file" class="form-control" id="BookImage" name="BookImage"
+                     placeholder="Please add Image" multiple>
+                    </div> 
+                    
+                        <label for="BookType" class="col-md-2 col-form-label"><b>Select The type of Book</b></label>
+                        <div class="col-md-3">
+                            <select class="form-select" aria-label="BookType">
+                            <option value="Other" selected>Other</option>
+                            <option value="Non-Fiction">Non-Fiction</option>
+                            <option value="Fiction">Fiction</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Maths">Maths</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                          </select>
+                    </div>
+                </div>
+                 <br>
+                 
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </div>
+               </form>
             </div>
 
    
@@ -124,14 +204,14 @@
                         <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook">.</i></a>
                         <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin">.</i></a>
                         <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter">.</i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube">.</i></a>
+                        <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/@st.vincentsschool8666/featured"><i class="fa fa-youtube">.</i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o">.</i></a>
                     </div>
                 </div>
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>~Designed & Developed by Gururaj Vinayak Kirad</p>
                 </div>
            </div>
         </div>
